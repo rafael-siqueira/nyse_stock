@@ -15,7 +15,7 @@ A quick overview is detailed below and there are also explanation notes in the n
 6) After testing several combinations of feature parameters and model configurations, I ended up using n_lags = 4, window = 10 and min_periods = 3 for the final model
 7) **The obtained training and validation MSE were 0.0122 and 6.2112e-04, respectively**
 
-Since this is a simple personal project and an initial version, I only developed it to run locally (`python main.py`).
+Since this is a simple personal project and an initial version, I only developed it to run locally (`python main.py`). For a future version, I intend to run it on a web server and to document the script properly with docstrings.
 
 I pre-configured a bot on Telegram and when the script is run, a connection is established with this bot and it sits idle, waiting for a command. When the bot receives the message '/pred' it returns a closing price prediction for next day with a graph depicting the recent price movements and the predicted price. Find below a screenshot of the Telegram bot working:
 
